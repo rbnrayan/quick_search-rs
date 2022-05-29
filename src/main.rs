@@ -56,7 +56,7 @@ fn main() {
         return;
     }
     println!(
-        "Result data:\n\n{}\n\nSee more: {}",
+        "{}\n\nSee more: {}",
         json_data["Abstract"].to_string().trim_matches('"'),
         json_data["AbstractURL"].to_string().trim_matches('"')
     );
